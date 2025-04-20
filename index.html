@@ -57,7 +57,7 @@
   try {
     const start = performance.now();  // Start timing
 
-    const res = await fetch('http://192.168.48.224:5000/data');
+    const res = await fetch('https://192.168.48.224:5000/data');
     const json = await res.json();
     const raw = json.encoded;
 
